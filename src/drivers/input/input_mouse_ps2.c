@@ -242,8 +242,10 @@ static const struct zmk_mouse_ps2_config zmk_mouse_ps2_config = {
     .tp_neg_inertia = DT_INST_PROP_OR(0, tp_neg_inertia, -1),
     .tp_val6_upper_speed = DT_INST_PROP_OR(0, tp_val6_upper_speed, -1),
     .tp_x_invert = DT_INST_PROP_OR(0, tp_x_invert, false),
-    .tp_y_invert = DT_INST_PROP_OR(0, tp_y_invert, false),
-    .tp_xy_swap = DT_INST_PROP_OR(0, tp_xy_swap, false),
+    .tp_y_invert = DT_INST_PROP_OR(1, tp_y_invert, true),
+    .tp_xy_swap = DT_INST_PROP_OR(1, tp_xy_swap, true),
+    //.tp_xy_swap = DT_INST_PROP_OR(0, tp_xy_swap, false),
+    //.tp_y_invert = DT_INST_PROP_OR(0, tp_y_invert, false),
 };
 
 static struct zmk_mouse_ps2_data zmk_mouse_ps2_data = {
