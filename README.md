@@ -1,4 +1,4 @@
-# PS/2 Mouse & TrackPoint Driver for zmk keyboards
+# PS/2 Mouse & TrackPoint Driver for zmk keyboards 
 
 This is a driver module that adds support for PS/2 mouse-pointing devices to DIY keyboards running the [zmk firmware](https://zmk.dev).
 
