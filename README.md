@@ -1403,3 +1403,4 @@ Here are a few resources I found useful for figuring out the pinout of my TrackP
 
 - [TrackPoint Cap Comparison](https://baxterhills.com/blog/trackpoints/)
 - [Aftermarked Cap Shop (Including better, rimmed shape)](https://www.etsy.com/shop/SaotoTech#about)
+##
